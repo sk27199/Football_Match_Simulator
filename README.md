@@ -37,23 +37,5 @@ This was my first project built entirely by myself after one week of learning Py
    ```bash
    python football_match_simulator.py
 
-Below is a example of how the code would run:
-
-   ⚽ Welcome to the Football Match Simulator ⚽
------------------------------------------------
-Enter the first teams name: MANCHESTER UNITED
-Enter the second teams name: CHELSEA
-Enter MANCHESTER UNITED score: 2
-Enter CHELSEA score: 2
-Draw, We head into Extra Time 😱
-Extra time goals by MANCHESTER UNITED: 1
-Extra time goals by CHELSEA: 1
-The scores are still level as we end Extra Time, We will need Penalties 😮
-Number of penalties scored by MANCHESTER UNITED: 4
-Number of penalties scored by CHELSEA: 5
-CHELSEA wins the Penalty Shootout 🎉🎉🎉
-Do you want to play another match? (yes/no): no
-Thanks for playing! ⚽ Goodbye!
-
 
 
