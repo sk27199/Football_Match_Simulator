@@ -37,5 +37,6 @@ This was my first project built entirely by myself after one week of learning Py
    ```bash
    python football_match_simulator.py
 
+Created by Shrish Umamaheswaran
 
 
