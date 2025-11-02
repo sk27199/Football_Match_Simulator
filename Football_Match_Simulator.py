@@ -4,8 +4,8 @@ print("-----------------------------------------------")
 
 #Ask for team names
 while True:
-    team1 = input("Enter the first teams name: ").upper()
-    team2 = input("Enter the second teams name: ").upper()
+    team1 = input("Enter the first teams name: ").title()
+    team2 = input("Enter the second teams name: ").title()
 
 #Ask for scores of each team
     score1= int(input(f"Enter {team1} score: "))
@@ -57,4 +57,5 @@ while True:
 
 
 else:
+
     print("Invalid input")
