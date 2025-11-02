@@ -1,7 +1,7 @@
 while True:
     # Get team names
-    team1 = input("Enter Team 1 name: ").title()
-    team2 = input("Enter Team 2 name: ").title()
+    team1 = input("Enter Team 1 name: ").title().strip()
+    team2 = input("Enter Team 2 name: ").title().strip()
 
     # Get scores for normal time
     score1 = int(input(f"Goals by {team1}: "))
@@ -41,7 +41,7 @@ while True:
                 print("We cannot decide a winner! 😵")
 
     # --- Play Again or Quit ---
-    play_again = input("Do you want to play another match? (yes/no): ").lower()
+    play_again = input("Do you want to play another match? (yes/no): ").lower().strip()
     if play_again != "yes":
         print("Thanks for playing! ⚽ Goodbye!")
         break
